@@ -1,0 +1,315 @@
+@media screen and (max-width: 576px) {
+    .header-section{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    .nav-link{
+        width: 95%;
+        margin: 20px auto;
+    }
+    .logo img{
+        margin-top: 10px;
+        width: 25%;
+    }
+    .social{
+        margin-bottom: 10px;
+    }
+    .hero-section{
+        flex-direction: column;
+    }
+    .hero-part1, .hero-part2{
+        text-align: center;
+        width: 95%;
+        margin: 20px auto;
+    }
+    .hero-container{
+        background-image: none;
+    }
+    .gamer-container{
+        flex-direction: column;
+    }
+    .gamer-part1{
+        width: 100%;
+    }
+    .gamer-part2{
+        text-align: center;
+        width: 96%;
+    }
+    .video{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .video>div{
+        width: 90%;
+        margin: auto;
+        margin-top: 15px;
+    }
+    .video>div p{
+        font-size: 18px;
+    }
+    .play-section{
+        flex-direction: column;
+    }
+    .play-section2{
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+    .play-section>div{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .play-section2>div{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .play-section .part-2>div img{
+        display: none;
+    }
+    .play-section2 .part-1>div img{
+        display: none;
+    }
+    .play-section .part-1{
+        width: 95%;
+        margin: auto;
+    }
+    .play-section2 .part-2{
+        width: 95%;
+        margin: auto;
+    }
+    .careers-container{
+        flex-direction: column;
+        margin: 0;
+    }
+    .careers-part-1{
+        width: 95%;
+        margin: 20px auto;
+    }
+    .careers-part-2{
+        width: 100%;
+        margin: auto;
+    }
+    .link ul{
+        flex-direction: column;
+        width: 100%;
+        line-height: 28px;
+    }
+    .policy{
+        width: 100%;
+        flex-direction: column;
+        line-height: 28px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .logo{
+        width: 200px;
+    }
+    .logo img{
+        width: 28%;
+    }
+    .nav-link{
+        margin-right: 10px;
+    }
+    .hero-section{
+        flex-direction: column;
+    }
+    .hero-part1, .hero-part2{
+        text-align: center;
+        width: 90%;
+        margin: 30px auto;
+    }
+    .hero-container{
+        background-image: none;
+    }
+    .gamer-container{
+        flex-direction: column;
+    }
+    .gamer-part1{
+        width: 100%;
+    }
+    .gamer-part2{
+        text-align: center;
+        width: 90%;
+    }
+    .video{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .video>div{
+        width: 90%;
+        margin: auto;
+    }
+    .play-section{
+        flex-direction: column;
+    }
+    .play-section2{
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+    .play-section>div{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .play-section2>div{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .play-section .part-2>div img{
+        display: none;
+    }
+    .play-section2 .part-1>div img{
+        display: none;
+    }
+    .play-section .part-1{
+        width: 95%;
+        margin: auto;
+    }
+    .play-section2 .part-2{
+        width: 95%;
+        margin: auto;
+    }
+    .careers-container{
+        flex-direction: column;
+        margin: 0;
+    }
+    .careers-part-1{
+        width: 95%;
+        margin: 20px auto;
+    }
+    .careers-part-2{
+        width: 100%;
+        margin: auto;
+    }
+    .link ul{
+        width: 100%;
+        line-height: 28px;
+    }
+    .link ul li{
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 999px) {
+    .logo{
+        width: 200px;
+    }
+    .logo img{
+        width: 28%;
+    }
+    .nav-link{
+        margin-right: 10px;
+    }
+    .hero-part1, .hero-part2{
+        width: 45%;
+        margin: auto;
+    }
+    .hero-container{
+        background-image: none;
+    }
+    .gamer-container{
+        width: 95%;
+    }
+    .video{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .video>div{
+        width: 90%;
+        margin: auto;
+    }
+    .play-section{
+        width: 95%;
+    }
+    .play-section2{
+        width: 95%;    
+    }
+    .play-section .part-2>div{
+        bottom: -90px;
+        left: -100px;
+    }
+    .play-section2 .part-1>div{
+        bottom: -100px;
+        right: -220px;
+    }
+    .play-section .part-2>div img{
+        width: 50%;
+    }
+    .play-section2 .part-1>div img{
+        width: 50%;
+    }
+    .careers-container{
+        margin: 10px;
+    }
+    .careers-part-1{
+        width: 95%;
+        margin: 20px auto;
+    }
+    .careers-part-2{
+        width: 100%;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 1000px) and (max-width: 1250px) {
+    .logo{
+        width: 200px;
+    }
+    .logo img{
+        width: 28%;
+    }
+    .nav-link{
+        margin-right: 10px;
+    }
+    .hero-part1, .hero-part2{
+        width: 45%;
+        margin: auto;
+    }
+    .gamer-container{
+        width: 95%;
+    }
+    .video>div{
+        width: 90%;
+        margin: auto;
+    }
+    .play-section{
+        width: 95%;
+    }
+    .play-section2{
+        width: 95%;    
+    }
+    .play-section .part-2>div{
+        bottom: -90px;
+        left: -100px;
+    }
+    .play-section2 .part-1>div{
+        bottom: -100px;
+        right: -220px;
+    }
+    .play-section .part-2>div img{
+        width: 70%;
+    }
+    .play-section2 .part-1>div img{
+        width: 70%;
+    }
+    .careers-container{
+        margin: 10px;
+    }
+    .careers-part-1{
+        width: 95%;
+        margin: 20px auto;
+    }
+    .careers-part-2{
+        width: 100%;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 1251px) and (max-width: 1550px) {
+    .careers-container{
+        margin: 10px;
+    }
+    .careers-part-1{
+        width: 95%;
+        margin: 20px auto;
+    }
+    .careers-part-2{
+        width: 100%;
+        margin: auto;
+    }
+}
